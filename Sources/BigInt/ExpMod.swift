@@ -1,6 +1,6 @@
 //
 //  ExpMod.swift
-//  BigInt
+//  BigIntRenamed
 //
 //  Created by Leif Ibsen on 17/02/2019.
 //  Copyright © 2019 Leif Ibsen. All rights reserved.

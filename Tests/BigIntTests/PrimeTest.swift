@@ -1,6 +1,6 @@
 //
 //  PrimeTest.swift
-//  BigIntegerTests
+//  BigIntRenamedegerTests
 //
 //  Created by Leif Ibsen on 15/12/2018.
 //

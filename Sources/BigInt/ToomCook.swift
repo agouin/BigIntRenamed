@@ -1,13 +1,13 @@
 //
 //  ToomCook.swift
-//  BigInt
+//  BigIntRenamed
 //
 //  Created by Leif Ibsen on 07/02/2019.
 //  Copyright © 2019 Leif Ibsen. All rights reserved.
 //
 
 /*
- * ToomCook multiplication modelled after the ToomCook algorithm in Java BigInteger
+ * ToomCook multiplication modelled after the ToomCook algorithm in Java BigIntRenamedeger
  */
 extension Array where Element == Limb {
 

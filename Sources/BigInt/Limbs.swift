@@ -1,6 +1,6 @@
 //
 //  Limbs.swift
-//  BigInt
+//  BigIntRenamed
 //
 //  Created by Leif Ibsen on 24/12/2018.
 //  Copyright © 2018 Leif Ibsen. All rights reserved.
@@ -539,7 +539,7 @@ extension Array where Element == Limb {
     }
 
     /*
-     * gcd algorithms modelled after the gcd algorithms in Java BigInteger
+     * gcd algorithms modelled after the gcd algorithms in Java BigIntRenamedeger
      */
     func gcd(_ x: Limbs) -> Limbs {
         if self == [0] {

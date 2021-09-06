@@ -1,7 +1,7 @@
 import XCTest
 
-import BigIntTests
+import BigIntRenamedTests
 
 var tests = [XCTestCaseEntry]()
-tests += BigIntTests.allTests()
+tests += BigIntRenamedTests.allTests()
 XCTMain(tests)

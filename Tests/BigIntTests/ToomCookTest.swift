@@ -1,6 +1,6 @@
 //
 //  ToomCookTest.swift
-//  BigIntTests
+//  BigIntRenamedTests
 //
 //  Created by Leif Ibsen on 09/02/2019.
 //

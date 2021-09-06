@@ -1,6 +1,6 @@
 //
 //  ModInverseTest.swift
-//  BigIntTests
+//  BigIntRenamedTests
 //
 //  Created by Leif Ibsen on 02/01/2019.
 //

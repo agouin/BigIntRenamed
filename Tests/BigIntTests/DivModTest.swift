@@ -1,6 +1,6 @@
 //
 //  DivModTest.swift
-//  XBigIntegerTests
+//  XBigIntRenamedegerTests
 //
 //  Created by Leif Ibsen on 11/12/2018.
 //

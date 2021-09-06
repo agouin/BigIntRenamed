@@ -1,5 +1,5 @@
 //
-//  BigInt.swift
+//  BigIntRenamed.swift
 //  BigInt
 //
 //  Created by Leif Ibsen on 24/12/2018.

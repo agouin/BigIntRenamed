@@ -1,13 +1,13 @@
 //
 //  Karatsuba.swift
-//  BigInt
+//  BigIntRenamed
 //
 //  Created by Leif Ibsen on 14/02/2019.
 //  Copyright © 2019 Leif Ibsen. All rights reserved.
 //
 
 /*
- * Karatsuba multiplication modelled after the Karatsuba algorithm in Java BigInteger
+ * Karatsuba multiplication modelled after the Karatsuba algorithm in Java BigIntRenamedeger
  */
 extension Array where Element == Limb {
     

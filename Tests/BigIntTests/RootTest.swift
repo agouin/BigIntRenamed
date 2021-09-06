@@ -1,6 +1,6 @@
 //
 //  RootTest.swift
-//  BigIntTests
+//  BigIntRenamedTests
 //
 //  Created by Leif Ibsen on 11/09/2019.
 //

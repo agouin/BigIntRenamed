@@ -1,6 +1,6 @@
 //
 //  AdditionTest.swift
-//  BigIntTests
+//  BigIntRenamedTests
 //
 //  Created by Leif Ibsen on 17/01/2019.
 //

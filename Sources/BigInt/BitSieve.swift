@@ -1,13 +1,13 @@
 //
 //  BitSieve.swift
-//  BigInt
+//  BigIntRenamed
 //
 //  Created by Leif Ibsen on 15/11/2018.
 //  Copyright © 2018 Leif Ibsen. All rights reserved.
 //
 
 /*
- * BitSieve class from Java BigInteger translated to Swift
+ * BitSieve class from Java BigIntRenamedeger translated to Swift
  */
 class BitSieve {
     

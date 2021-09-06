@@ -1,6 +1,6 @@
 //
 //  ToByteArrayTest.swift
-//  BigIntTests
+//  BigIntRenamedTests
 //
 //  Created by Leif Ibsen on 05/09/2019.
 //

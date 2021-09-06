@@ -1,6 +1,6 @@
 //
 //  KaratsubaTest.swift
-//  BigIntTests
+//  BigIntRenamedTests
 //
 //  Created by Leif Ibsen on 15/02/2019.
 //

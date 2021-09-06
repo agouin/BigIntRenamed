@@ -1,7 +1,7 @@
 <h2><b>Description</b></h2>
 
-The BigInt package provides arbitrary-precision integer arithmetic in Swift.
-Its functionality is comparable to that of the Java BigInteger class. It falls in the following categories:
+The BigIntRenamed package provides arbitrary-precision integer arithmetic in Swift.
+Its functionality is comparable to that of the Java BigIntRenamedeger class. It falls in the following categories:
 <ul>
 <li>Arithmetic: add, subtract, multiply, divide and remainder</li>
 <li>Comparison: the six standard operators == != < <= > >=</li>
@@ -13,13 +13,13 @@ Its functionality is comparable to that of the Java BigInteger class. It falls i
 <li>Miscellaneous: random number generation, greatest common divisor, n-th root, square root modulo an odd prime, and Jacobi symbol</li>
 </ul>
 
-BigInt requires Swift 5.0.
+BigIntRenamed requires Swift 5.0.
 
 <h2><b>Usage</b></h2>
 In your projects Package.swift file add a dependency like<br/>
 
 	  dependencies: [
-	  .package(url: "https://github.com/leif-ibsen/BigInt", from: "1.1.2"),
+	  .package(url: "https://github.com/agouin/BigInt", .branch("swift_5_1")),
 	  ]
 
 <h2><b>Examples</b></h2>
@@ -67,11 +67,11 @@ In your projects Package.swift file add a dependency like<br/>
 
 <h2><b>Performance</b></h2>
 
-To assess the performance of BigInt, the execution times for a number of common operations were measured on a MacBook Pro 2018, 2,2 GHz 6-Core Intel Core i7.
-Each execution time was then compared to the execution time for the same operation in Java using the BigInteger class.
+To assess the performance of BigIntRenamed, the execution times for a number of common operations were measured on a MacBook Pro 2018, 2,2 GHz 6-Core Intel Core i7.
+Each execution time was then compared to the execution time for the same operation in Java using the BigIntRenamedeger class.
 The results are in the table below. It shows the operation being measured and the time it took in Swift and in Java (in microseconds or milliseconds).
 
-Based on these measurements it seems that Java BigInteger is roughly 2-5 times faster than Swift BigInt.
+Based on these measurements it seems that Java BigIntRenamedeger is roughly 2-5 times faster than Swift BigIntRenamed.
 
 Four large numbers 'a1000', 'b1000', 'c2000' and 'p1000' were used throughout the measurements. Their actual values are shown under the table.
 
@@ -128,5 +128,5 @@ There are references in the source code where appropriate.
 
 <h2><b>Acknowledgement</b></h2>
 
-The BitSieve class used in the implementation is a translation to Swift of the corresponding class from Java BigInteger.
-The GCD algorithm and the Karatsuba and ToomCook multiplication algorithms are modelled after the corresponding algorithms in Java BigInteger.
+The BitSieve class used in the implementation is a translation to Swift of the corresponding class from Java BigIntRenamedeger.
+The GCD algorithm and the Karatsuba and ToomCook multiplication algorithms are modelled after the corresponding algorithms in Java BigIntRenamedeger.

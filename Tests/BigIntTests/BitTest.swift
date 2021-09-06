@@ -1,6 +1,6 @@
 //
 //  BitTest.swift
-//  BigIntTests
+//  BigIntRenamedTests
 //
 //  Created by Leif Ibsen on 31/12/2018.
 //

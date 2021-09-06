@@ -1,6 +1,6 @@
 //
 //  LimbTest.swift
-//  BigIntTests
+//  BigIntRenamedTests
 //
 //  Created by Leif Ibsen on 24/12/2018.
 //

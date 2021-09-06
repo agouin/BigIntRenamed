@@ -1,6 +1,6 @@
 //
 //  gcdTest.swift
-//  BigIntTests
+//  BigIntRenamedTests
 //
 //  Created by Leif Ibsen on 15/01/2019.
 //

@@ -1,6 +1,6 @@
 //
 //  MulSquareTest.swift
-//  BigIntegerTests
+//  BigIntRenamedegerTests
 //
 //  Created by Leif Ibsen on 19/12/2018.
 //
