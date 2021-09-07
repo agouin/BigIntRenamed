@@ -19,7 +19,7 @@ BigIntRenamed requires Swift 5.0.
 In your projects Package.swift file add a dependency like<br/>
 
 	  dependencies: [
-	  .package(url: "https://github.com/agouin/BigInt", .branch("swift_5_1")),
+	  .package(url: "https://github.com/agouin/BigIntRenamed", .branch("swift_5_1")),
 	  ]
 
 <h2><b>Examples</b></h2>
