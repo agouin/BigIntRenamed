@@ -1,6 +1,6 @@
 //
 //  JacobiTest.swift
-//  BigIntTests
+//  BigIntRenamedTests
 //
 //  Created by Leif Ibsen on 24/01/2021.
 //

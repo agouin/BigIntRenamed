@@ -1,6 +1,6 @@
 //
 //  BitSieve.swift
-//  BigInt
+//  BigIntRenamed
 //
 //  Created by Leif Ibsen on 15/11/2018.
 //  Copyright © 2018 Leif Ibsen. All rights reserved.

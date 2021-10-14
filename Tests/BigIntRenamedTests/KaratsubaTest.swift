@@ -1,13 +1,13 @@
 //
-//  ToomCookTest.swift
-//  BigIntTests
+//  KaratsubaTest.swift
+//  BigIntRenamedTests
 //
-//  Created by Leif Ibsen on 09/02/2019.
+//  Created by Leif Ibsen on 15/02/2019.
 //
 
 import XCTest
 
-class ToomCookTest: XCTestCase {
+class KaratsubaTest: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -19,8 +19,8 @@ class ToomCookTest: XCTestCase {
 
     func test1() {
         for _ in 0 ..< 10 {
-            let a = BInt(bitWidth: Limbs.TC_THR * 5 * 64)
-            let b = BInt(bitWidth: Limbs.TC_THR * 2 * 64)
+            let a = BInt(bitWidth: (Limbs.KA_THR + 1) * 64)
+            let b = BInt(bitWidth: (Limbs.KA_THR + 1) * 64)
             let p = a * b
             XCTAssertEqual(p, b * a)
             let (q, r) = p.quotientAndRemainder(dividingBy: a)
@@ -28,20 +28,20 @@ class ToomCookTest: XCTestCase {
             XCTAssertEqual(r, BInt.ZERO)
         }
     }
-
+    
     func test2() {
         for _ in 0 ..< 10 {
-            let a = BInt(bitWidth: Limbs.TC_THR * 10 * 64)
+            let a = BInt(bitWidth: (Limbs.KA_THR + 1) * 64)
             let p = a ** 2
             let (q, r) = p.quotientAndRemainder(dividingBy: a)
             XCTAssertEqual(q, a)
             XCTAssertEqual(r, BInt.ZERO)
         }
     }
-
+    
     func test3() {
-        let b1 = BInt([0xffffffffffffffff]) << (Limbs.TC_THR * 64)
-        let b2 = BInt([0x8000000000000000]) << (Limbs.TC_THR * 64)
+        let b1 = BInt([0xffffffffffffffff]) << (Limbs.KA_THR * 64)
+        let b2 = BInt([0x8000000000000000]) << (Limbs.KA_THR * 64)
         XCTAssertEqual(b1 * b1, b1 ** 2)
         XCTAssertEqual(b2 * b2, b2 ** 2)
         let x = b1 * b2
@@ -54,20 +54,20 @@ class ToomCookTest: XCTestCase {
         XCTAssertEqual(r2, BInt.ZERO)
     }
 
-    // ToomCook and Karatsuba give same result
+    // Karatsuba and ToomCook give same result
     func test4() {
         for _ in 0 ..< 10 {
-            let a = BInt(bitWidth: (Limbs.TC_THR + 1) * 64)
-            let b = BInt(bitWidth: (Limbs.TC_THR + 1) * 64)
+            let a = BInt(bitWidth: (Limbs.KA_THR + 1) * 64)
+            let b = BInt(bitWidth: (Limbs.KA_THR + 1) * 64)
             let p = a * b
-            let pK = BInt(a.magnitude.karatsubaTimes(b.magnitude))
-            XCTAssertEqual(p, pK)
+            let pTC = BInt(a.magnitude.toomCookTimes(b.magnitude))
+            XCTAssertEqual(p, pTC)
         }
         for _ in 0 ..< 10 {
-            let a = BInt(bitWidth: (Limbs.TC_THR + 1) * 64)
+            let a = BInt(bitWidth: (Limbs.KA_THR + 1) * 64)
             let p = a ** 2
-            let pK = BInt(a.magnitude.karatsubaSquare())
-            XCTAssertEqual(p, pK)
+            let pTC = BInt(a.magnitude.toomCookSquare())
+            XCTAssertEqual(p, pTC)
         }
     }
 

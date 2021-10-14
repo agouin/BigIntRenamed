@@ -1,6 +1,6 @@
 //
 //  MultiplicationTest.swift
-//  BigIntTests
+//  BigIntRenamedTests
 //
 //  Created by Leif Ibsen on 19/01/2019.
 //

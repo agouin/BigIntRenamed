@@ -1,6 +1,6 @@
 //
 //  IntMinMaxTest.swift
-//  BigIntTests
+//  BigIntRenamedTests
 //
 //  Created by Leif Ibsen on 09/10/2021.
 //

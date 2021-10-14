@@ -1,6 +1,6 @@
 //
 //  ToomCook.swift
-//  BigInt
+//  BigIntRenamed
 //
 //  Created by Leif Ibsen on 07/02/2019.
 //  Copyright © 2019 Leif Ibsen. All rights reserved.

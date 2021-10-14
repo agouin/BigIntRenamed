@@ -1,6 +1,6 @@
 //
-//  BigInt.swift
-//  BigInt
+//  BigIntRenamed.swift
+//  BigIntRenamed
 //
 //  Created by Leif Ibsen on 24/12/2018.
 //  Copyright © 2018 Leif Ibsen. All rights reserved.
